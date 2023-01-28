@@ -34,6 +34,7 @@ body {
     flex-wrap: nowrap;
     transform: translate(80%,0px);
     border-end-start-radius: 10px;
+    font: italic small-caps bold 16px/2 cursive;
 }
 
 .theme_change:hover {
