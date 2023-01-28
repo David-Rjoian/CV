@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #242424, #373737);
+}
+
+.left_menu {
+    background: #121212;
+    color: #ffffff;
+}
+
+.button:hover {
+    background: #2a2a2a;
+}
+
+.line {
+    background-color: silver;
+}
+
+.container {
+    background: #151515;
+    color: white;
+}
+
+.github_link a {
+    color: white;
+}
+
+.theme_change {
+    background: #151515;
+    color: white;
+}

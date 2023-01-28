@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to right, #e1e1e1, #a8a8a8);
+}
+
+.left_menu {
+    background: #e5e5e5;
+    color: #1f1f1f;
+}
+
+.button:hover {
+    background: #e5e5e5;
+}
+
+.line {
+    background-color: black;
+}
+
+.container {
+    background: #ffffff;
+}
+
+.github_link a {
+    color: black;
+}
+
+.theme_change {
+    background: #cacaca;
+}
