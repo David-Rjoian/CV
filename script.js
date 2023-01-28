@@ -42,6 +42,27 @@ lang.addEventListener("click", function () {
     langTarget.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
+let prog = document.getElementById("linkProg");
+let progTarget = document.getElementById("progTarget");
+
+prog.addEventListener("click", function () {
+    progTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+let themeButton = document.getElementById("themeButton");
+let themeNow = 0;
+
+themeButton.onclick = function () {
+    if (themeNow == 0) {
+        document.getElementById("theme").href = "dark.css";
+        themeNow += 1;
+    } else {
+        document.getElementById("theme").href = "light.css";
+        themeNow -= 1;
+    };
+};
+
 if (window.innerWidth < 1300) {
-    alert("Sorry, this page is not working on phones correctly.")
+    menu.style.display = "none";
+    themeButton.style.display = "none";
 };
