@@ -2,7 +2,8 @@ body {
     margin: 0;
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
-    height: 3000px;
+    width: 100%;
+    height: 5000px;
     display: flex;
     justify-content: center;
     overflow-x: hidden;
@@ -23,18 +24,23 @@ body {
 }
 
 .theme_change {
-    padding-inline: 20px;
+    display: flex;
+    padding-inline-end: 20px;
     position: sticky;
-    z-index: 1;
     top: 0px;
-    width: max-content;
+    width: 550px;
     height: max-content;
     background: #cacaca;
     transition: all 0.3s ease 0s;
     flex-wrap: nowrap;
-    transform: translate(80%,0px);
+    align-items: center;
+    justify-content: space-between;
+    transform: translate(55%,0px);
     border-end-start-radius: 10px;
     font: italic small-caps bold 16px/2 cursive;
+    box-shadow: -1px 1px 28px 4px rgba(0,0,0,0.33);
+    -webkit-box-shadow: -1px 1px 28px 4px rgba(0,0,0,0.33);
+    -moz-box-shadow: -1px 1px 28px 4px rgba(0,0,0,0.33);
 }
 
 .theme_change:hover {
@@ -132,4 +138,43 @@ nav {
     box-shadow: 1px 0px 21px 0px rgba(0,0,0,0.63);
     -webkit-box-shadow: 1px 0px 21px 0px rgba(0,0,0,0.63);
     -moz-box-shadow: 1px 0px 21px 0px rgba(0,0,0,0.63);
+}
+
+.block_job {
+    border: 1px solid grey;
+    padding-inline: 20px;
+    width: 70%;
+    height: max-content;
+    display: none;
+    border-radius: 20px;
+    margin: 0 0 50px;
+    box-shadow: -1px 2px 29px -3px rgba(0,0,0,0.18) inset;
+    -webkit-box-shadow: -1px 2px 29px -3px rgba(0,0,0,0.18) inset;
+    -moz-box-shadow: -1px 2px 29px -3px rgba(0,0,0,0.18) inset;
+}
+
+.description {
+    margin: 0;
+    text-decoration: underline;
+    transition: all 0.5s ease 0s;
+    padding-block-end: 15px;
+    width: max-content;
+}
+
+.description:hover {
+    cursor: pointer;
+    animation: des 1s ease infinite;
+}
+
+@keyframes des {
+    0% {
+
+    }
+
+    50% {
+        transform: translate(5px,0px)
+    }
+
+    100% {
+    }
 }
