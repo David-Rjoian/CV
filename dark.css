@@ -28,3 +28,11 @@ body {
     background: #151515;
     color: white;
 }
+
+.description {
+    color: silver;
+}
+
+.description:hover {
+    color: white;
+}
