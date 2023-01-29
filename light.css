@@ -26,3 +26,11 @@ body {
 .theme_change {
     background: #cacaca;
 }
+
+.description {
+    color: #313131;
+}
+
+.description:hover {
+    color: black;
+}
