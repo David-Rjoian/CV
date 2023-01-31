@@ -146,13 +146,3 @@ window.onload = function () {
     let button = document.getElementById("button");
     let menu = document.getElementById("menu");
 };
-
-window.onload = function () {
-    if (window.innerWidth < 1920) {
-        menu.style.display = "none";
-        themeButton.style.display = "none";
-    } else {
-        menu.style.display = "flex";
-        themeButton.style.display = "flex";
-    }
-};
